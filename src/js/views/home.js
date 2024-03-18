@@ -75,12 +75,12 @@ export const Home = () => {
                                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">
                                                 Cancelar
                                             </button>
-                                            <button onClick={() => deleteButton(contact.id)} type="button" className="btn btn-primary">
+                                            <button onClick={() => deleteButton(contact.id)} type="button" className="btn btn-primary" data-bs-dismiss="modal">
                                                 Sí, borrar.
                                             </button>
                                         </div>
                                     </div>
-                                </div>
+                                </div>gi
                             </div>
                         </div>
                     </div>
